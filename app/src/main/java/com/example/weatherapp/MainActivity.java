@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                 }
                 else{
-                    Toast.makeText(MainActivity.this, "login failed!!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Inavlid credentials!!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
